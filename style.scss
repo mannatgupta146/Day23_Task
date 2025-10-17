@@ -84,7 +84,7 @@ main {
         }
     }
 
-    #hero{
+    section#hero{
         padding: 1.2rem;
         @include flex-column(1rem);
 
@@ -139,7 +139,7 @@ main {
 @media (min-width:900px){
     main{
         
-        #hero{
+        section#hero{
             flex-direction: row;
             
 
