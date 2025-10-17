@@ -111,6 +111,28 @@ main section#hero #hero-div button i {
   border: 1px solid #EFEDE8;
   margin-right: 0.2rem;
 }
+main section#numbers #top, main section#numbers #bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main section#numbers #top .element, main section#numbers #bottom .element {
+  display: flex;
+  flex-direction: column;
+}
+main section#numbers #top .element h5, main section#numbers #bottom .element h5 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+main section#numbers #top .element h2, main section#numbers #bottom .element h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+main section#numbers #top {
+  margin-bottom: 2rem;
+}
 
 @media (min-width: 900px) {
   main section#hero {
