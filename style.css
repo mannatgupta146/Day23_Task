@@ -37,9 +37,13 @@ main header {
   justify-content: space-between;
   padding: 0.7rem 1.4rem;
 }
+main header h1 {
+  font-size: 1.5rem;
+}
 main header #icons {
   border-radius: 0.4rem;
   display: flex;
+  align-items: center;
   gap: 0.6rem;
 }
 main header #icons h2 {
@@ -51,12 +55,18 @@ main header #icons h2 {
   gap: 0.5rem;
   align-items: center;
 }
-main header #icons span {
+main header #icons h2 span {
   font-size: 0.9rem;
   background-color: #CEBD63;
   border-radius: 50%;
   padding: 0.01rem 0.3rem;
   color: #000;
+}
+main header #icons i {
+  background-color: #1E1E1E;
+  font-size: 1rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.5rem;
 }
 main #hero {
   padding: 1.2rem;
@@ -76,9 +86,12 @@ main #hero #hero-div h4 {
   margin-bottom: 4rem;
 }
 main #hero #hero-div h1 {
+  font-size: 2.2rem;
   font-weight: 400;
   text-transform: uppercase;
   width: 80%;
+  line-height: 1.3;
+  margin-bottom: 1rem;
 }
 main #hero #hero-div p {
   font-size: 1.2rem;
@@ -90,6 +103,13 @@ main #hero #hero-div button {
   border: 0;
   background-color: transparent;
   color: #EFEDE8;
+}
+main #hero #hero-div button i {
+  color: #EFEDE8;
+  padding: 0.2rem;
+  border-radius: 50%;
+  border: 1px solid #EFEDE8;
+  margin-right: 0.2rem;
 }
 
 @media (min-width: 900px) {
