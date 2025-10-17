@@ -23,7 +23,7 @@ main {
   flex-direction: column;
   gap: 0rem;
 }
-main section {
+main section#hero {
   max-width: 2000px;
 }
 main img {
@@ -111,17 +111,26 @@ main section#hero #hero-div button i {
   border: 1px solid #EFEDE8;
   margin-right: 0.2rem;
 }
+main section#numbers {
+  text-align: center;
+  padding: 1rem;
+}
 main section#numbers #top, main section#numbers #bottom {
   display: flex;
+  gap: 0rem;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 main section#numbers #top .element, main section#numbers #bottom .element {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
 }
 main section#numbers #top .element h5, main section#numbers #bottom .element h5 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 600;
   opacity: 0.6;
   text-transform: uppercase;
@@ -152,22 +161,91 @@ main section#numbers #top {
     width: 100%;
     margin-bottom: 2rem;
   }
+  main section#numbers {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  main section#numbers #top, main section#numbers #bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  main section#numbers #top .element h2, main section#numbers #bottom .element h2 {
+    font-size: 4rem;
+    opacity: 0.9;
+  }
+  main section#numbers #top .element h5, main section#numbers #bottom .element h5 {
+    font-size: 0.9rem;
+  }
+  main #top {
+    margin-bottom: 0;
+  }
 }
 @media (min-width: 2000px) {
   main {
     align-items: center;
   }
+  main header,
+  main section#hero,
+  main section#numbers {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+  }
   main header {
-    width: 2000px;
     display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  main section#hero {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
     justify-content: space-between;
   }
-  main #hero-div {
+  main section#hero img,
+  main section#hero #hero-div {
+    width: 48%;
+  }
+  main section#hero #hero-div {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: center;
   }
-  main #hero-div p {
+  main section#hero #hero-div h1 {
+    font-size: 5rem;
+    width: 90%;
+    line-height: 1.2;
+  }
+  main section#hero #hero-div p {
     width: 80%;
+    font-size: 1.4rem;
+  }
+  main section#numbers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0;
+  }
+  main section#numbers #top,
+  main section#numbers #bottom {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    margin-bottom: 0;
+  }
+  main section#numbers #top .element h2,
+  main section#numbers #bottom .element h2 {
+    font-size: 4.5rem;
+    opacity: 0.95;
+  }
+  main section#numbers #top .element h5,
+  main section#numbers #bottom .element h5 {
+    font-size: 1.1rem;
+    opacity: 0.7;
   }
 }/*# sourceMappingURL=style.css.map */
