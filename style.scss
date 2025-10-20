@@ -164,15 +164,15 @@ main {
         }
     }
 
-    section#page2{
+    section#page2, section#page3{
         
 
-        #sec2b{
+        #sec2b,#sec3b{
             background-color: #1E1E1E;
             padding: 2rem 1.2rem;
             border-radius: 0.7rem;
 
-            #upper{
+            .upper{
                 text-transform: uppercase;
 
                 h4{
@@ -180,7 +180,7 @@ main {
                 }
             }
             
-            #lower{
+            .lower{
                 padding: 4rem 0.5rem 0;
 
                 h2{
