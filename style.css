@@ -167,6 +167,7 @@ main section#numbers #top {
     align-items: center;
   }
   main header {
+    padding: 1rem 2rem;
     width: 2000px;
     margin: 0 auto;
   }
