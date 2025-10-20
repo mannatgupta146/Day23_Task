@@ -25,6 +25,7 @@ main {
 }
 main section {
   max-width: 2000px;
+  padding: 1.2rem;
 }
 main img {
   width: 100%;
@@ -69,7 +70,6 @@ main header #icons i {
   border-radius: 0.5rem;
 }
 main section#hero {
-  padding: 1.2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -136,6 +136,28 @@ main section#numbers #top .element h5, main section#numbers #bottom .element h5 
 main section#numbers #top .element h2, main section#numbers #bottom .element h2 {
   font-size: 2.3rem;
   font-weight: 200;
+}
+main section#page2 #sec2b {
+  background-color: #1E1E1E;
+  padding: 2rem 1.2rem;
+  border-radius: 0.7rem;
+}
+main section#page2 #sec2b #upper {
+  text-transform: uppercase;
+}
+main section#page2 #sec2b #upper h4 {
+  font-size: 0.9rem;
+}
+main section#page2 #sec2b #lower {
+  padding: 4rem 0.5rem 0;
+}
+main section#page2 #sec2b #lower h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 200;
+}
+main section#page2 #sec2b #lower p {
+  opacity: 0.6;
 }
 
 @media (min-width: 900px) {
