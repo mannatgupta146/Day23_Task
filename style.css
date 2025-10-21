@@ -165,6 +165,61 @@ main section#page2 #sec2b .lower h2, main section#page2 #sec3b .lower h2, main s
 main section#page2 #sec2b .lower p, main section#page2 #sec3b .lower p, main section#page3 #sec2b .lower p, main section#page3 #sec3b .lower p {
   opacity: 0.6;
 }
+main section#job #top h1 {
+  font-weight: 400;
+}
+main section#job #top h4 {
+  display: none;
+}
+main section#job #bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section#job #bottom .element {
+  position: relative;
+}
+main section#job #bottom .element #links {
+  display: flex;
+  gap: 0.5rem;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  cursor: pointer;
+}
+main section#job #bottom .element #links h4 {
+  padding: 0.6rem 0.8rem;
+  border-radius: 50%;
+  border: 0.5px solid rgba(117, 115, 115, 0.4745098039);
+  background-color: #332620;
+}
+main section#job #bottom .element #links h4 i {
+  font-weight: 100;
+  font-size: 1rem;
+}
+main section#job #bottom .element #text {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+main section#job #bottom .element #text h4 {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+main section#job #bottom .element #text h2 {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
 
 @media (min-width: 900px) {
   main section#hero {
@@ -230,6 +285,38 @@ main section#page2 #sec2b .lower p, main section#page2 #sec3b .lower p, main sec
   }
   main section#page2 {
     flex-direction: row-reverse;
+  }
+  main section#job #top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  main section#job #top h1 {
+    font-size: 3rem;
+  }
+  main section#job #top h4 {
+    display: block;
+  }
+  main section#job #top h4 i {
+    padding: 0.5rem;
+    background-color: #1E1E1E;
+    border-radius: 50%;
+    border: 1px solid #332620;
+    margin-right: 0.5rem;
+  }
+  main section#job #bottom {
+    flex-direction: row;
+  }
+  main section#job #bottom .element #links {
+    left: 60%;
+  }
+  main section#job #bottom .element #text {
+    top: 90%;
+  }
+  main section#job #bottom .element #text #name {
+    display: flex;
+    gap: 0.5rem;
   }
 }
 @media (min-width: 2000px) {

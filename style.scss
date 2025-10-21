@@ -199,6 +199,76 @@ main {
         }
     }
 
+    section#job{
+        
+        #top{
+                
+            h1{
+                font-weight: 400;
+            }
+
+            h4{
+                display: none;
+            }
+        }
+
+        #bottom{
+            display: flex;
+            flex-direction: column;   
+            gap: 1rem; 
+
+            .element{
+                position: relative;
+
+                #links{
+                    display: flex;
+                    gap: 0.5rem;
+                    position: absolute;
+                    top: 10%;                        
+                    left: 40%;
+                    cursor: pointer;             
+                        
+                    h4{
+                        padding: 0.6rem 0.8rem;
+                        border-radius: 50%;
+                        border: 0.5px solid #75737379;
+                        background-color: #332620;
+
+                        i{
+                            font-weight: 100;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+                #text{ 
+                    position: absolute;
+                    top: 75%;
+                    left: 50%;             
+                    transform: translate(-50%, -50%);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 90%;
+                    background: rgba(0, 0, 0, 0.4); 
+                    backdrop-filter: blur(10px);
+                    padding: 1rem;
+                    border-radius: 0.5rem;
+
+                    h4{
+                        font-weight: 500;
+                        font-size: 0.9rem;
+                    }
+
+                    h2{
+                        font-weight: 400;
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 
@@ -289,6 +359,52 @@ main {
         section#page2{
             flex-direction: row-reverse;
         }
+
+        section#job{
+
+            #top{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 2rem;
+
+                h1{
+                    font-size: 3rem;
+                }
+
+                h4{
+                    display: block;
+                    
+                    i{
+                        padding: 0.5rem;
+                        background-color: #1E1E1E;
+                        border-radius: 50%;
+                        border: 1px solid #332620;
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+
+            #bottom{
+                flex-direction: row;
+
+                .element{
+                    #links{
+                        left: 60%;
+                    }
+
+                    #text{
+                        top: 90%;
+
+                        #name{
+                            display: flex;
+                            gap: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+
 
     }
 }
