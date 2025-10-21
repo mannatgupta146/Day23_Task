@@ -261,7 +261,33 @@ main {
 
             #sec2a, #sec2b, #sec3a, #sec3b{
                 width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .lower{
+                    h2{
+                        font-size: 3rem;
+                    }
+                    
+                    .paragraphs{
+                        display: flex;
+                        gap: 1rem;
+
+                        p{
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
             }
+
+            #sec2b, #sec3b{
+                padding: 4rem;
+            }
+        }
+
+        section#page2{
+            flex-direction: row-reverse;
         }
 
     }
