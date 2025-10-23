@@ -233,6 +233,22 @@ main section#page4 #join {
   flex-direction: column;
   gap: 3rem;
 }
+main section#page4 #join #top h4 {
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+main section#page4 #join #top h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+main section#page4 #join #bottom h3 i {
+  font-size: 1rem;
+  padding: 0.3rem;
+  border: 1px solid #EFEDE8;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+}
+
 @media (min-width: 900px) {
   main section#hero {
     flex-direction: row;
