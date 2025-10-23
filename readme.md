@@ -1,64 +1,69 @@
-# Day 23 Task | Cohort 2.0
+# Day 23 & 24 Task | Cohort 2.0
 
-This project is a dynamic and responsive image collage dedicated to the illustrious career of **Mahendra Singh Dhoni**, completed as part of Sheryians Coding School Cohort 2.0.
+This is a **fully responsive website clone** of **ALVY Fashion Studio**, created as part of **Sheryians Coding School Cohort 2.0**.  
 
-It visually segments five key aspects of his journey—trophy wins, iconic looks, and career milestones—into a single, cohesive, magazine-style layout using **CSS Grid**.
+- **Day 23:** Developed the **responsive landing page**.  
+- **Day 24:** Completed the **full multi-section website**, optimized for **mobile, tablet, laptop, and 4K screens**.  
+
+**Original Website:** [🌐 ALVY Studio](https://alvy-template.webflow.io/studio)
 
 
 ## 📌 About the Project
 
-The aim of this task was to create a **complex, non-uniform layout** that is both aesthetically pleasing and fully responsive. The design challenges the developer to move beyond standard row-and-column layouts and utilize advanced CSS Grid features to achieve a dynamic collage effect.
+This project replicates ALVY’s modern, editorial-style layout with focus on:
 
-The design emphasizes the visual hierarchy of the images and includes subtle interactivity to enhance the tribute.
+- Hero section with **bold typography** and **call-to-action**.  
+- Multi-section layout: **Numbers**, **Philosophy**, **Vision**, **Team**, **Join**, **Contact**, **Footer**.  
+- **Subtle hover interactions** and visual hierarchy for a professional look.  
+- Fully responsive across all devices for a seamless experience.
 
-**Key highlights:**
+**✨ Key Highlights:**
 
-🖼️ Magazine-style image collage
-🌐 Fully responsive using **CSS Grid**
-✨ Interactive zoom and shadow on hover
-🎨 SCSS-based styling for a clean codebase
-
-## 🎥 Project Preview
-
-Here’s how the grid layout looks:
-
-![Project Preview](./assets/demo.png)
-
-✨ The layout allows users to view five distinct sections with background images. Each section is styled for clarity and visual appeal, maintaining a clean grid structure.  
+- 🖼️ Modern multi-section layout  
+- 🌐 Fully responsive (mobile, tablet, laptop, 4K)  
+- ✨ Interactive hover effects on buttons, cards, and icons  
+- 🎨 SCSS-based styling for clean and maintainable code  
 
 
 ## 🚀 Features
 
 | Feature | Description |
 | :--- | :--- |
-| **Grid Layout** | Uses **`grid-template-areas`** for an expressive, readable, and complex grid structure. |
-| **Image Arrangement** | Five distinct sections covering different eras and achievements of MS Dhoni. |
-| **Hover Effect** | Subtle `scale` and `box-shadow` transitions on hover for a professional, interactive touch. |
-| **SCSS Styling** | Clean, modular SCSS with nesting for efficient and targeted styling. |
-| **Responsiveness** | Utilizes **fractional units (`fr`)** in the grid definition for inherent adaptability to different screen widths. |
-
+| **Responsive Design** | Works perfectly on mobile, tablet, laptop, and 4K screens. |
+| **Hero & Landing Page** | Eye-catching hero section with heading, text, and CTA button. |
+| **Multi-Section Layout** | Numbers, Philosophy, Vision, Team, Join, Contact, Footer. |
+| **Hover Effects** | Smooth `scale` and `box-shadow` transitions for interactivity. |
+| **SCSS Structure** | Nested and modular SCSS for clean, maintainable styling. |
+| **Icons** | Uses Remix Icons for social links and UI elements. |
 
 ## 🛠️ Technologies Used
 
-* **HTML5** – Semantic page structure (`<main>`, `<aside>`, `<section>`).
-* **SCSS (Sass)** – Styling, hover effects, and transitions.
-* **CSS Grid** – The core layout engine responsible for the complex collage structure.
+- **HTML5** – Semantic page structure  
+- **SCSS (Sass)** – Styling, hover effects, responsive adjustments  
+- **CSS Grid & Flexbox** – For layout and responsive design  
+- **Remix Icons** – Vector icons for UI elements  
 
 
 ## 📖 Learning Outcome
 
 Through this project, I learned how to:
 
-1.  Master the use of **`grid-template-areas`** to define and manage complex, multi-span layouts in CSS Grid.
-2.  Combine responsive units (`fr`) with fixed gaps (`px`) to create a flexible yet precise layout.
-3.  Implement **smooth transitions** and transformations (`scale`, `box-shadow`) on hover to add depth to static elements.
-4.  Structure SCSS using nesting to keep styles logically grouped with their respective HTML elements.
+- Build a **fully responsive website** from landing page to full multi-section layout.  
+- Manage **complex grid and flex layouts** for desktop, tablet, and mobile screens.  
+- Implement **interactive hover effects** for buttons, cards, and icons.  
+- Structure **SCSS modularly** for scalable and maintainable code.  
+- Replicate modern **editorial-style website designs**.
+
+## 🎥 Project Preview
+
+**Full Website:**  
+![Full Website](./assets/demo.gif)  
 
 
-## 🙌 Acknowledgement
+## 🌟 Acknowledgement
 
-This project was completed as part of **Sheryians Coding School Cohort 2.0**.
-
-The tribute design is inspired by modern editorial and poster layouts, focusing on high-impact visual storytelling achieved entirely through HTML and SCSS.
+This project was completed as part of **Sheryians Coding School Cohort 2.0**.  
 
 ---
+
+> **Note:** Clone is fully responsive and works flawlessly on **mobile, tablet, laptop, and 4K screens**.
