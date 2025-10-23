@@ -51,6 +51,7 @@ main {
 
         h1{
             font-size: 1.5rem;
+            font-weight: 200;
         }
 
         #icons{
@@ -62,26 +63,39 @@ main {
             h2{
                 background-color: #1E1E1E;
                 font-size: 0.9rem;
-                padding: 0.7rem 0.9rem;
+                font-weight: 500;
+                padding: 1rem;
                 border-radius: 0.5rem;
                 @include flex(0.5rem);
+                display: none;
 
                 span{
-                font-size: 0.9rem;
-                background-color: #CEBD63;
-                border-radius: 50%;
-                padding: 0.01rem 0.3rem;
-                color: #000;
-            }
-            }
-        i{
-            background-color: #1E1E1E;
-            font-size: 1rem;
-            padding: 0.7rem 0.9rem;
-            border-radius: 0.5rem;
-        }
+                    font-size: 0.9rem;
+                    background-color: #CEBD63;
+                    border-radius: 50%;
+                    padding: 0.01rem 0.3rem;
+                    color: #000;
+                }
 
+            }
             
+            #cart{
+                display: block;
+            }
+            
+            i{
+                background-color: #1E1E1E;
+                font-size: 2rem;
+                padding: 0.5rem;
+                border-radius: 0.5rem;
+            }
+            
+            button{
+                padding: 1rem 1.5rem;
+                border-radius: 0.6rem;
+                background-color: #CEBD63;
+                display: none;
+            }            
         }
     }
 
@@ -473,6 +487,26 @@ main {
 
 @media (min-width:900px){
     main{
+
+        header{
+            padding: 1.5rem 2rem 0;
+
+            #icons{
+                
+                h2{
+                    display: block;
+                }
+                
+                i{
+                    display: none;
+                }
+
+                button{
+                    display: block;
+                    font-weight: 500;
+                }            
+            }
+        }
         
         section#hero{
             flex-direction: row;
@@ -640,6 +674,7 @@ main {
                 }
 
                 #right{
+                    width: 20%;
                     button{
                         padding: 1rem 2rem;
                     }

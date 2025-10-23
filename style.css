@@ -40,6 +40,7 @@ main header {
 }
 main header h1 {
   font-size: 1.5rem;
+  font-weight: 200;
 }
 main header #icons {
   border-radius: 0.4rem;
@@ -50,11 +51,13 @@ main header #icons {
 main header #icons h2 {
   background-color: #1E1E1E;
   font-size: 0.9rem;
-  padding: 0.7rem 0.9rem;
+  font-weight: 500;
+  padding: 1rem;
   border-radius: 0.5rem;
   display: flex;
   gap: 0.5rem;
   align-items: center;
+  display: none;
 }
 main header #icons h2 span {
   font-size: 0.9rem;
@@ -63,11 +66,20 @@ main header #icons h2 span {
   padding: 0.01rem 0.3rem;
   color: #000;
 }
+main header #icons #cart {
+  display: block;
+}
 main header #icons i {
   background-color: #1E1E1E;
-  font-size: 1rem;
-  padding: 0.7rem 0.9rem;
+  font-size: 2rem;
+  padding: 0.5rem;
   border-radius: 0.5rem;
+}
+main header #icons button {
+  padding: 1rem 1.5rem;
+  border-radius: 0.6rem;
+  background-color: #CEBD63;
+  display: none;
 }
 main section#hero {
   display: flex;
@@ -380,6 +392,19 @@ main section#footer #right #rbottom h3 i {
 }
 
 @media (min-width: 900px) {
+  main header {
+    padding: 1.5rem 2rem 0;
+  }
+  main header #icons h2 {
+    display: block;
+  }
+  main header #icons i {
+    display: none;
+  }
+  main header #icons button {
+    display: block;
+    font-weight: 500;
+  }
   main section#hero {
     flex-direction: row;
   }
@@ -500,6 +525,9 @@ main section#footer #right #rbottom h3 i {
   main section#contact #content #left h2 {
     width: 80%;
     font-size: 5rem;
+  }
+  main section#contact #content #right {
+    width: 20%;
   }
   main section#contact #content #right button {
     padding: 1rem 2rem;
