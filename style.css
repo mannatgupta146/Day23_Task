@@ -381,7 +381,7 @@ main section#footer #right #rbottom p span {
 }
 main section#footer #right #rbottom h3 {
   font-size: 0.9rem;
-  font-family: 300;
+  font-weight: 300;
   cursor: pointer;
 }
 main section#footer #right #rbottom h3 i {
