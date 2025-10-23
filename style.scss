@@ -280,12 +280,14 @@ main {
             border-radius: 0.7rem;
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             gap: 3rem;
 
             #top{
                 h4{
                     font-size: 0.9rem;
                     opacity: 0.6;
+                    margin-bottom: 0.8rem;
                 }
 
                 h2{
@@ -296,10 +298,12 @@ main {
 
             #bottom{
                 h3{
+                    font-size: 0.9rem;
+
                     i{
                         font-size: 1rem;
                         padding: 0.3rem;
-                        border: 1px solid #EFEDE8;
+                        border: 1px solid #3B3B3B;
                         border-radius: 50%;
                         margin-right: 0.3rem;
                     }
@@ -439,6 +443,24 @@ main {
                             display: flex;
                             gap: 0.5rem;
                         }
+                    }
+                }
+            }
+        }
+
+        section#page4{
+            flex-direction: row;
+
+            img, #join{
+                width: 50%;
+            }
+
+            #join{
+                padding: 4rem;
+
+                #top{
+                    h2{
+                        font-size: 3rem;
                     }
                 }
             }

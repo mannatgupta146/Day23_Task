@@ -231,20 +231,25 @@ main section#page4 #join {
   border-radius: 0.7rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 3rem;
 }
 main section#page4 #join #top h4 {
   font-size: 0.9rem;
   opacity: 0.6;
+  margin-bottom: 0.8rem;
 }
 main section#page4 #join #top h2 {
   font-size: 2rem;
   font-weight: 400;
 }
+main section#page4 #join #bottom h3 {
+  font-size: 0.9rem;
+}
 main section#page4 #join #bottom h3 i {
   font-size: 1rem;
   padding: 0.3rem;
-  border: 1px solid #EFEDE8;
+  border: 1px solid #3B3B3B;
   border-radius: 50%;
   margin-right: 0.3rem;
 }
@@ -345,6 +350,18 @@ main section#page4 #join #bottom h3 i {
   main section#job #bottom .element #text #name {
     display: flex;
     gap: 0.5rem;
+  }
+  main section#page4 {
+    flex-direction: row;
+  }
+  main section#page4 img, main section#page4 #join {
+    width: 50%;
+  }
+  main section#page4 #join {
+    padding: 4rem;
+  }
+  main section#page4 #join #top h2 {
+    font-size: 3rem;
   }
 }
 @media (min-width: 2000px) {
