@@ -245,6 +245,7 @@ main section#page4 #join #top h2 {
 }
 main section#page4 #join #bottom h3 {
   font-size: 0.9rem;
+  cursor: pointer;
 }
 main section#page4 #join #bottom h3 i {
   font-size: 1rem;
@@ -303,6 +304,7 @@ main section#footer #left h2 {
 main section#footer #left #links {
   display: flex;
   gap: 0.4rem;
+  cursor: pointer;
 }
 main section#footer #left #links h4 {
   padding: 0.6rem 0.8rem;
@@ -337,13 +339,16 @@ main section#footer #right #rtop .elem #sub {
 }
 main section#footer #right #rtop .elem #sub h5 {
   opacity: 0.6;
+  cursor: pointer;
 }
 main section#footer #right #rtop .elem #b button {
   width: 70%;
   padding: 1rem;
   border-radius: 0.6rem;
   background-color: #CEBD63;
-  font-weight: 500;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
 }
 main section#footer #right #rbottom {
   background-color: #1E1E1E;
@@ -360,10 +365,12 @@ main section#footer #right #rbottom p span {
   text-decoration: underline;
   color: #EFEDE8;
   opacity: 1;
+  cursor: pointer;
 }
 main section#footer #right #rbottom h3 {
-  font-size: 1rem;
-  font-family: 400;
+  font-size: 0.9rem;
+  font-family: 300;
+  cursor: pointer;
 }
 main section#footer #right #rbottom h3 i {
   margin-left: 0.4rem;
@@ -496,6 +503,36 @@ main section#footer #right #rbottom h3 i {
   }
   main section#contact #content #right button {
     padding: 1rem 2rem;
+  }
+  main section#footer {
+    flex-direction: row;
+    width: 100%;
+  }
+  main section#footer #left {
+    width: 20%;
+    padding: 3rem;
+  }
+  main section#footer #right {
+    width: 80%;
+  }
+  main section#footer #right #rtop {
+    flex-direction: row;
+    gap: 15rem;
+    padding: 3rem;
+  }
+  main section#footer #right #rtop .elem {
+    gap: 1.5rem;
+  }
+  main section#footer #right #rtop .elem #sub {
+    gap: 2rem;
+  }
+  main section#footer #right #rtop .elem #b button {
+    width: 100%;
+  }
+  main section#footer #right #rbottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem 0;
   }
 }
 @media (min-width: 2000px) {
