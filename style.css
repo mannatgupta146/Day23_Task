@@ -253,6 +253,35 @@ main section#page4 #join #bottom h3 i {
   border-radius: 50%;
   margin-right: 0.3rem;
 }
+main section#contact #content {
+  background-color: #CEBD63;
+  padding: 2rem 1.2rem;
+  border-radius: 0.7rem;
+}
+main section#contact #content #left {
+  color: #000;
+}
+main section#contact #content #left h5 {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+main section#contact #content #left h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+main section#contact #content #right button {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 3.7rem;
+}
+main section#contact #content #right button i {
+  margin-left: 0.4rem;
+}
 
 @media (min-width: 900px) {
   main section#hero {
@@ -362,6 +391,22 @@ main section#page4 #join #bottom h3 i {
   }
   main section#page4 #join #top h2 {
     font-size: 3rem;
+  }
+  main section#contact #content {
+    padding: 4rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  main section#contact #content #left h5 {
+    font-weight: 800;
+  }
+  main section#contact #content #left h2 {
+    width: 80%;
+    font-size: 5rem;
+  }
+  main section#contact #content #right button {
+    padding: 1rem 2rem;
   }
 }
 @media (min-width: 2000px) {

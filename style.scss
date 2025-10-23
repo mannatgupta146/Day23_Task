@@ -312,6 +312,46 @@ main {
         }
     }
 
+    section#contact{
+
+        #content{
+            background-color: #CEBD63;
+            padding: 2rem 1.2rem;
+            border-radius: 0.7rem;
+           
+            #left{
+                color: #000;
+
+                h5{
+                    margin-bottom: 1rem;
+                    font-size: 0.9rem;
+                }
+
+                h2{
+                    font-size: 2.5rem;
+                    font-weight: 400;
+                    line-height: 1;
+                    width: 50%;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            #right{
+                button{
+                    color: white;
+                    background-color: black;
+                    border: none;
+                    border-radius: 0.5rem;
+                    padding: 1rem 3.7rem;
+                    i{
+                        margin-left: 0.4rem;
+                    }
+                }
+            }
+        }
+        
+    }
+
 }
 
 
@@ -466,6 +506,30 @@ main {
             }
         }
 
+        section#contact{
+            #content{
+                padding: 4rem;
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                #left{
+                    h5{
+                        font-weight: 800;
+                    }
+
+                    h2{
+                        width: 80%;
+                        font-size: 5rem;
+                    }
+                }
+
+                #right{
+                    button{
+                        padding: 1rem 2rem;
+                    }
+                }
+            }
+        }
 
     }
 }
